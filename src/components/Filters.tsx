@@ -1,5 +1,5 @@
 
-import { Card, Divider } from 'antd';
+import { Card,} from 'antd';
 import { FileTextOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
@@ -62,7 +62,6 @@ function Filters() {
   return (
     <div>
         <Card title="Filters" extra={'0 Selected'} style={{ width:'100%', marginTop:'1.5rem' }}>
-            <Divider/>
             <Menu
       onClick={onClick}
       style={{ width: 256 }}

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mentions } from 'antd';
 import type { MentionsOptionProps } from 'antd/es/mentions';
 
@@ -18,7 +17,8 @@ function SearchMentions() {
     onChange={onChange}
     onSelect={onSelect}
     placeholder='Serach by name, edu, exp or #tag'
-    options={[
+    options={
+      [
       {
         value: 'Personal Information',
         label: 'Personal Information',
@@ -39,7 +39,8 @@ function SearchMentions() {
         value: 'Advance Fliter',
         label: 'Advance Filter',
       },
-    ]}
+    ]
+  }
   />
     </div>
   )

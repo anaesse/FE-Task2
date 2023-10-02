@@ -1,1 +1,28 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.tagButton{
+    background-color: #F3FAFC;
+    color:#037092;
+    font-size: 8px;
+    font-weight: 500;
+    border: none;
+    margin: 2px 0;
+    
+}
+.dropdown{
+    background:'#1D4ED8' !important; 
+    color:'#fff';
+}
+.dropdownButton{
+    background-color: #FFF;
+    color:#1D4ED8;
+    font-size: 16px;
+    font-weight: 500;
+    border: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 15px;
 
+}
